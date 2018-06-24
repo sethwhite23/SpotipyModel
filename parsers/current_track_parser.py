@@ -10,6 +10,9 @@ class CurrentTrackParser:
         self.response = response
 
     def parse(self):
+        # If there is no currently playing track this will be none
+        if not self.response:
+            return None
         progress = self.response["progress_ms"]
         item = self.response['item']
         name = item["name"]
