@@ -1,0 +1,11 @@
+# Compile python modules
+*.pyc
+
+# Setuptools distribution folder
+/dist/
+
+# Python egg metadata
+/*.egg-info
+
+# Token caches
+.cache
