@@ -1,5 +1,5 @@
 from artist_parser import ArtistParser
-from model.album import Album
+from ..model.album import Album
 
 class AlbumParser:
     parser_type = 'album'

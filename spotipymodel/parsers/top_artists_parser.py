@@ -1,7 +1,6 @@
 from artist_parser import ArtistParser
-from model.artist import Artist
-from model.top_artists import TopArtists
-from pprint import pprint
+from ..model.artist import Artist
+from ..model.top_artists import TopArtists
 
 class TopArtistsParser:
 

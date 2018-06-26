@@ -1,6 +1,6 @@
 from sp_request import SPRequest
-from parsers.current_track_parser import CurrentTrackParser
-from model.current_track import CurrentTrack
+from ..parsers.current_track_parser import CurrentTrackParser
+from ..model.current_track import CurrentTrack
 
 class CurrentTrackRequest(SPRequest):
 

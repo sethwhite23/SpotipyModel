@@ -1,6 +1,6 @@
 from album_parser import AlbumParser
-from model.current_track import CurrentTrack
-from model.song import Song
+from ..model.current_track import CurrentTrack
+from ..model.song import Song
 
 class CurrentTrackParser:
 

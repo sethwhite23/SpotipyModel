@@ -1,9 +1,8 @@
 from artist_parser import ArtistParser
 from album_parser import AlbumParser
-from model.album import Album
-from model.artist import Artist
-from model.song import Song
-from pprint import pprint
+from ..model.album import Album
+from ..model.artist import Artist
+from ..model.song import Song
 
 class SongParser:
     parser_type = 'track'

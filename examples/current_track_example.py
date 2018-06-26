@@ -1,5 +1,5 @@
 import sys
-from spotipymodel import spm
+from spotipymodel import SPM
 
 if len(sys.argv) > 1:
     username = sys.argv[1]

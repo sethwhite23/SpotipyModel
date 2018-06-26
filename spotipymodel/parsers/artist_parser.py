@@ -1,4 +1,4 @@
-from model.artist import Artist
+from ..model.artist import Artist
 
 class ArtistParser:
     parser_type = 'artist'

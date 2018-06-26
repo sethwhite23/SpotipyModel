@@ -1,6 +1,6 @@
 from sp_request import SPRequest
-from parsers.top_tracks_parser import TopTracksParser
-from model.top_tracks import TopTracks
+from ..parsers.top_tracks_parser import TopTracksParser
+from ..model.top_tracks import TopTracks
 
 class TopTracksRequest(SPRequest):
 

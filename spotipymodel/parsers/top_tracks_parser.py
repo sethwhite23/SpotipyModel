@@ -1,7 +1,6 @@
 from song_parser import SongParser
-from model.song import Song
-from model.top_tracks import TopTracks
-from pprint import pprint
+from ..model.song import Song
+from ..model.top_tracks import TopTracks
 
 class TopTracksParser:
 

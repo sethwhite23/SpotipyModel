@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='spotipymodel',
@@ -9,5 +9,5 @@ setup(
     install_requires=[
         'spotipy>=2.4.4'
     ],
-    packages=['spotipymodel']
+    packages=find_packages()
 )
